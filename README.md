@@ -1,1 +1,2 @@
-# FindInfluencer
+# HW1: FindInfluencer
+The code imports necessary libraries such as numpy, networkx, random, and pandas. It then reads three datasets using pandas, which are instaglam_1.csv, instaglam0.csv, and spotifly.csv. The first two datasets are used to create a graph object using networkx library. The graph is updated iteratively by adding new edges based on the common neighbors between nodes. The updated graph is then used to calculate the centrality measures such as closeness, betweenness, and harmonic centrality, which are then stored in a dataframe. Finally, the code identifies the most influential nodes based on the centrality measures.
